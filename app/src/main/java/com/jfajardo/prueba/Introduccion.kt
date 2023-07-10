@@ -33,26 +33,8 @@ fun main() {
 
     println("Ingrese su apellido")
     var lastName= readLine()
-    var results:Int= readLine()!!.toInt()
-    when (results) {
-        0  -> println("No results")
-        in 1..39 -> println("Got results!")
-        else -> println("That's a lot of results!")
-    }
+    println("Ingrese su edad")
+    var edad:Int= readLine()!!.toInt()
 
-    println("Ingrese un número")
-    var n1:Int= readLine()!!.toInt()
-    println("Ingrese otro número")
-    var n2:Int= readLine()!!.toInt()
-
-    println("Ingresa una opción: \n 1. Suma \n 2. Resta \n 3.Resta \n 4. División")
-    var op:Int= readLine()!!.toInt()
-    when (op) {
-        1  ->  println("La suma entre $num1 y $num2 es ${num1+num2}")
-        2  ->  println("La resta entre $num1 y $num2 es ${num1+num2}")
-        3  ->  println("La multiplicación entre $num1 y $num2 es ${num1+num2}")
-        4  ->  println("La división entre $num1 y $num2 es ${num1+num2}")
-        else -> println("La opción ingresada no es válida!")
-    }
 
 }
